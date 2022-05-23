@@ -1,0 +1,27 @@
+[Distribution]
+Distribution=arch
+Architecture=x86_64
+
+[Output]
+Format=gpt_btrfs
+Bootable=true
+BootProtocols=uefi
+Encrypt=all
+CompressFs=true
+Hostname=testhost
+ImageId=test-img
+
+[Packages]
+Packages=
+    base
+    linux
+    linux-lts
+    linux-firmware
+    util-linux
+    systemd
+    bash
+    cryptsetup
+
+[Partitions]
+RootSize=3G
+ESPSize=256M
