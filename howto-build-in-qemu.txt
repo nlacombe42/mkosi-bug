@@ -1,3 +1,4 @@
+sudo su
 pacman -Sy git mkosi dosfstools
 git clone https://github.com/nlacombe42/mkosi-bug.git
 cd ./mkosi-bug/
