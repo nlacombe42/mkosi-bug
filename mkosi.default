@@ -7,7 +7,6 @@ Format=gpt_btrfs
 Bootable=true
 BootProtocols=uefi
 Encrypt=all
-CompressFs=true
 Hostname=testhost
 ImageId=test-img
 
@@ -15,12 +14,9 @@ ImageId=test-img
 Packages=
     base
     linux
-    linux-lts
-    linux-firmware
     util-linux
     systemd
     bash
-    cryptsetup
 
 [Partitions]
 RootSize=3G
