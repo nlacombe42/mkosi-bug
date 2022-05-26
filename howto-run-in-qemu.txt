@@ -1,5 +1,0 @@
-curl -o 'Arch-Linux-x86_64-basic-20220523.57492.qcow2.SHA256' 'https://gitlab.archlinux.org/archlinux/arch-boxes/-/jobs/57492/artifacts/raw/output/Arch-Linux-x86_64-basic-20220523.57492.qcow2.SHA256?inline=false'
-curl -o 'Arch-Linux-x86_64-basic-20220523.57492.qcow2' 'https://gitlab.archlinux.org/archlinux/arch-boxes/-/jobs/57492/artifacts/raw/output/Arch-Linux-x86_64-basic-20220523.57492.qcow2?inline=false'
-echo "optionally run \"rhash -c Arch-Linux-x86_64-basic-20220523.57492.qcow2.SHA256\" or similar"
-cp Arch-Linux-x86_64-basic-20220523.57492.qcow2 arch.qcow2
-qemu-system-x86_64 -machine q35 --accel kvm -m 2G -drive index=0,media=disk,format=qcow2,file=./arch.qcow2

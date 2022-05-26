@@ -9,7 +9,7 @@ main() {
 printSystemInfo() {
 	printCommandAndOutput "uname -a"
 	printCommandAndOutput "cat /etc/os-release"
-	printCommandAndOutput "sudo pacman -Qi mkosi"
+	printCommandAndOutput "pacman -Qs 'mkosi|systemd'"
 }
 
 printCommandAndOutput() {
