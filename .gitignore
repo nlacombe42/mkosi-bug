@@ -1,2 +1,4 @@
 /*.log
 /mkosi.cache/
+/*.qcow*
+/*.raw

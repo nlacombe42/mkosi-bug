@@ -17,6 +17,7 @@ Packages=
     util-linux
     systemd
     bash
+    cryptsetup
 
 [Partitions]
 RootSize=3G
